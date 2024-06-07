@@ -1,5 +1,4 @@
-from sqlalchemy import create_engine, MetaData
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy import MetaData
 from ..connectors.database import engine, DBSession
 
 def clear_all_tables():
